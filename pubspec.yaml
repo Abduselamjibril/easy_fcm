@@ -1,0 +1,19 @@
+name: easy_fcm
+description: The easiest way to handle Firebase Notifications in Flutter. Auto-handles foreground pop-ups and channels.
+version: 0.0.1
+repository: https://github.com/abduselam-jibril/easy_fcm 
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
